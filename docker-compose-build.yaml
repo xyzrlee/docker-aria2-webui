@@ -1,0 +1,7 @@
+version: '3'
+services:
+    aria2-webui:
+        build: 
+          context: .
+          dockerfile: Dockerfile
+        image: xyzrlee/aria2-webui
